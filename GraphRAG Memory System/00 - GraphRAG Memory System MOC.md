@@ -5,105 +5,105 @@ tags:
   - graphrag
   - memgraph
   - mcp
-  - knowledge-management
+  - управление-знаниями
 aliases:
   - "GraphRAG MOC"
-  - "Memory System Hub"
+  - "Хаб Системы Памяти"
 ---
 
-# GraphRAG Memory System - MOC
+# GraphRAG Система Памяти - MOC
 
-> **Map of Content for the GraphRAG-based AI Memory System Project**  
-> *A comprehensive long-term memory solution combining graph databases, vector embeddings, and visual exploration*
+> **Карта Контента для проекта системы памяти ИИ на основе GraphRAG**  
+> *Комплексное решение долговременной памяти, объединяющее графовые базы данных, векторные эмбеддинги и визуальное исследование*
 
-## 🎯 Project Overview
+## 🎯 Обзор Проекта
 
-**Goal**: Create an advanced long-term memory system for AI assistants using GraphRAG architecture that combines:
-- **Vector embeddings** (Voyage 3.5) for semantic search
-- **Knowledge graphs** (Memgraph) for relationship navigation  
-- **Visual exploration** (Memgraph Lab) for insight discovery
-- **MCP integration** (Cursor) for seamless AI interaction
+**Цель**: Создать продвинутую систему долговременной памяти для ИИ ассистентов используя архитектуру GraphRAG, которая объединяет:
+- **Векторные эмбеддинги** (Voyage 3.5) для семантического поиска
+- **Графы знаний** (Memgraph) для навигации по связям  
+- **Визуальное исследование** (Memgraph Lab) для открытия инсайтов
+- **MCP интеграцию** (Cursor) для бесшовного взаимодействия с ИИ
 
-**Status**: ✅ Technical setup complete, moving to design phase
-
----
-
-## 🗺️ Navigation
-
-### 📚 Research & Concepts
-- [[GraphRAG Concepts and Theory]]
-- [[Vector-Graph Integration Patterns]]
-- [[Long-term Memory Architecture Research]]
-
-### 🏗️ Technical Foundation  
-- [[Memgraph Database Setup]]
-- [[MCP Server Configuration]]
-- [[Memgraph Lab Visualization]]
-- [[Docker Architecture Overview]]
-
-### 🎨 System Design
-- [[Node Types Schema]]
-- [[Relationship Types Design]]
-- [[Data Flow Architecture]]
-- [[Query Patterns and Use Cases]]
-
-### 🔧 Implementation
-- [[Database Schema Implementation]]
-- [[Vector Integration with Voyage 3.5]]
-- [[MCP Tools Development]]
-
-### 🧪 Testing & Validation
-- [[System Performance Tests]]
-- [[Memory Persistence Validation]]
-- [[Graph Visualization Testing]]
+**Статус**: ✅ Техническая настройка завершена, переходим к фазе дизайна
 
 ---
 
-## 🔗 Key Concepts
+## 🗺️ Навигация
 
-### **GraphRAG Architecture**
-Combines the semantic understanding of RAG (Retrieval-Augmented Generation) with the relationship mapping power of knowledge graphs.
+### 📚 Исследования и Концепции
+- [[GraphRAG Концепции и Теория]]
+- [[Паттерны Интеграции Векторов и Графов]]
+- [[Исследование Архитектуры Долговременной Памяти]]
 
-### **Decentralized Network Topology**  
-Following the MOC philosophy - neither fully centralized (single index) nor fully distributed (no structure), but decentralized with multiple navigation hubs.
+### 🏗️ Техническая Основа  
+- [[Настройка Базы Данных Memgraph]]
+- [[Конфигурация MCP Сервера]]
+- [[Визуализация Memgraph Lab]]
+- [[Обзор Docker Архитектуры]]
 
-### **Multi-Modal Memory Storage**
-- **Documents** → **Sections** → **Paragraphs** (hierarchical)
-- **Concepts** ↔ **Relationships** ↔ **Context** (semantic)
-- **Temporal** connections preserving conversation history
+### 🎨 Дизайн Системы
+- [[Схема Типов Узлов]]
+- [[Дизайн Типов Связей]]
+- [[Архитектура Потока Данных]]
+- [[Паттерны Запросов и Случаи Использования]]
+
+### 🔧 Реализация
+- [[Реализация Схемы Базы Данных]]
+- [[Интеграция Векторов с Voyage 3.5]]
+- [[Разработка MCP Инструментов]]
+
+### 🧪 Тестирование и Валидация
+- [[Тесты Производительности Системы]]
+- [[Валидация Постоянства Памяти]]
+- [[Тестирование Визуализации Графа]]
 
 ---
 
-## 📊 Current Status
+## 🔗 Ключевые Концепции
 
-| Component | Status | Notes |
+### **Архитектура GraphRAG**
+Объединяет семантическое понимание RAG (Retrieval-Augmented Generation) с мощью картографирования связей графов знаний.
+
+### **Децентрализованная Сетевая Топология**  
+Следуя философии MOC - ни полностью централизованная (единый индекс), ни полностью распределенная (без структуры), а децентрализованная с множественными навигационными хабами.
+
+### **Мультимодальное Хранение Памяти**
+- **Документы** → **Разделы** → **Параграфы** (иерархическое)
+- **Концепции** ↔ **Связи** ↔ **Контекст** (семантическое)
+- **Временные** соединения, сохраняющие историю разговоров
+
+---
+
+## 📊 Текущий Статус
+
+| Компонент | Статус | Заметки |
 |-----------|---------|--------|
-| Memgraph DB | ✅ Running | Port 7687, Docker container |
-| MCP Server | ✅ Active | Port 8000, HTTP transport |
-| Lab Interface | ✅ Connected | Port 3000, visualization ready |
-| Cursor Integration | ✅ Working | MCP tools available |
-| Schema Design | 🔄 In Progress | Node/relationship types |
-| Vector Integration | ⏳ Planned | Voyage 3.5 embeddings |
+| Memgraph DB | ✅ Работает | Порт 7687, Docker контейнер |
+| MCP Сервер | ✅ Активен | Порт 8000, HTTP транспорт |
+| Lab Интерфейс | ✅ Подключен | Порт 3000, визуализация готова |
+| Cursor Интеграция | ✅ Работает | MCP инструменты доступны |
+| Дизайн Схемы | 🔄 В Процессе | Типы узлов/связей |
+| Векторная Интеграция | ⏳ Запланировано | Voyage 3.5 эмбеддинги |
 
 ---
 
-## 🎯 Next Actions
+## 🎯 Следующие Действия
 
-1. **Complete schema design** - finalize node and relationship types
-2. **Implement vector storage** - integrate Voyage 3.5 embeddings  
-3. **Build core MCP tools** - document ingestion, search, visualization
-4. **Test with real data** - validate memory persistence and retrieval
-5. **Optimize performance** - query speed and graph navigation
+1. **Завершить дизайн схемы** - финализировать типы узлов и связей
+2. **Реализовать векторное хранение** - интегрировать Voyage 3.5 эмбеддинги  
+3. **Построить основные MCP инструменты** - загрузка документов, поиск, визуализация
+4. **Тестировать с реальными данными** - валидировать постоянство и извлечение памяти
+5. **Оптимизировать производительность** - скорость запросов и навигация по графу
 
 ---
 
-## 🔍 Quick Access
+## 🔍 Быстрый Доступ
 
-**Find notes by:**
-- `#graphrag` - Core GraphRAG concepts
-- `#memgraph` - Database-specific content  
-- `#mcp` - Integration and tools
-- `#research` - Background research and theory
-- `#implementation` - Technical implementation details
+**Найти заметки по:**
+- `#graphrag` - Основные концепции GraphRAG
+- `#memgraph` - Контент, специфичный для базы данных  
+- `#mcp` - Интеграция и инструменты
+- `#исследование` - Фоновые исследования и теория
+- `#реализация` - Детали технической реализации
 
-**Project Context**: [[LNTS Mercury Project Overview]]
+**Контекст Проекта**: [[Обзор Проекта LNTS Mercury]]
