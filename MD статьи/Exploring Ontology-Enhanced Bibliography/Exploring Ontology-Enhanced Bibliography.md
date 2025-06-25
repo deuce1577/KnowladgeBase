@@ -195,7 +195,7 @@ $$\begin{array}{ll} [\{A\_{1},\ldots,A\_{n}\}]\_{x} = A\_{1}(x) \vee \cdots \vee
 
 $$\begin{aligned}
 
-[\alpha]_x =\ &\text{Person}(x)\ \land\ \exists x_1\,\Big( \text{authorConf}(x, x_1)\ \land \\
+\left[ \alpha \right]_x =\ &\text{Person}(x)\ \land\ \exists x_1\,\Big( \text{authorConf}(x, x_1)\ \land \\
 
 &\quad \Big( \big( \text{ACMConf}(x_1)\ \land\ \exists x_2\,(\text{confYear}(x_1, x_2)\ \land\ x_2 = \text{``2016''}) \big) \\
 
