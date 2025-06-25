@@ -193,7 +193,15 @@ $$\begin{array}{ll} [\{A\_{1},\ldots,A\_{n}\}]\_{x} = A\_{1}(x) \vee \cdots \vee
 
 <span id="page-8-2"></span>In result, a monadic positive existential query is obtained. For example, for the faceted query [\(1\)](#page-8-1), we obtain:
 
-$$\begin{array}{l} \left[ \alpha \right]\_x = Person(x) \land \exists x\_1 (authorConf(x, x\_1) \land \\ \left( \begin{array}{l} ACMConf(x\_1) \land \exists x\_2 (confYear(x\_1, x\_2) \land x\_2 = \text{``2016''}) \lor \\ TPDLConf(x\_1) \land \exists x\_2 (confYear(x\_1, x\_2) \land x\_2 = \text{``2016''}) \right) ). \end{array} \right]$$
+$$\begin{aligned}
+
+[\alpha]_x =\ &\text{Person}(x)\ \land\ \exists x_1\,\Big( \text{authorConf}(x, x_1)\ \land \\
+
+&\quad \Big( \big( \text{ACMConf}(x_1)\ \land\ \exists x_2\,(\text{confYear}(x_1, x_2)\ \land\ x_2 = \text{``2016''}) \big) \\
+
+&\qquad \lor\ \big( \text{TPDLConf}(x_1)\ \land\ \exists x_2\,(\text{confYear}(x_1, x_2)\ \land\ x_2 = \text{``2016''}) \big) \Big) \Big)
+
+\end{aligned}$$
 
 ### **4.3 Rewriting FOFQs into Extensional Form**
 
