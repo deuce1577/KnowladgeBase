@@ -1,10 +1,10 @@
 ---
-
+Источник: "[Faceted Lightweight Ontologies](https://www.researchgate.net/publication/30531329_Faceted_Lightweight_Ontologies?enrichId=rgreq-aaf7a45bb3835aaefa7cf0e87a6dd20b-XXX&enrichSource=Y292ZXJQYWdlOzMwNTMxMzI5O0FTOjk3MTYwNDM5Nzk1NzIzQDE0MDAxNzYyNjI3NTY%3D&el=1_x_3&_esc=publicationCoverPdf)"
 ---
-
+[Faceted Lightweight Ontologies](https://www.researchgate.net/publication/30531329_Faceted_Lightweight_Ontologies?enrichId=rgreq-aaf7a45bb3835aaefa7cf0e87a6dd20b-XXX&enrichSource=Y292ZXJQYWdlOzMwNTMxMzI5O0FTOjk3MTYwNDM5Nzk1NzIzQDE0MDAxNzYyNjI3NTY%3D&el=1_x_3&_esc=publicationCoverPdf)
 See discussions, stats, and author profiles for this publication at: [https://www.researchgate.net/publication/30531329](https://www.researchgate.net/publication/30531329_Faceted_Lightweight_Ontologies?enrichId=rgreq-aaf7a45bb3835aaefa7cf0e87a6dd20b-XXX&enrichSource=Y292ZXJQYWdlOzMwNTMxMzI5O0FTOjk3MTYwNDM5Nzk1NzIzQDE0MDAxNzYyNjI3NTY%3D&el=1_x_2&_esc=publicationCoverPdf)
 
-# [Faceted Lightweight Ontologies](https://www.researchgate.net/publication/30531329_Faceted_Lightweight_Ontologies?enrichId=rgreq-aaf7a45bb3835aaefa7cf0e87a6dd20b-XXX&enrichSource=Y292ZXJQYWdlOzMwNTMxMzI5O0FTOjk3MTYwNDM5Nzk1NzIzQDE0MDAxNzYyNjI3NTY%3D&el=1_x_3&_esc=publicationCoverPdf)
+# 
 
 **Article** in Lecture Notes in Computer Science · January 2009 DOI: 10.1007/978-3-642-02463-4\_3 · Source: OAI
 
