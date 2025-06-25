@@ -280,7 +280,18 @@ The semantics of a faceted query tree is given by a first-order query (FOFQ), ob
 
 **Definition 6 (First order faceted query).** *The semantics of a faceted query tree* fqt*, denoted* [[fqt]]*<sup>x</sup> is the first-order query defined as follows:*
 
-$$\begin{array}{c} \begin{array}{l} \left[fq\right]\_{x} = \left[qt\right]\_{x} \\ \left[qt\right]\_{x} = \left[ct\right]\_{x} \circ \cdots \circ \left[ct\right]\_{x} \end{array} \\ \begin{array}{l} \left[\left(C,\varepsilon\right)\right]\_{x} = C\left(x\right) \\ \left[\left(C,\varepsilon\right)\right]\_{x} = C\left(x\right) \\ \left[\left(P,qt\right)\_{x} = \exists y\left(P,x,y\right)\land\left[qt\right]\_{y} \\ \left[\left(P,qt\right]\right]\_{x} = \exists y\left(P,x,y\right)\land\left[qt\right]\_{y} \end{array} \end{array} \tag{2}$$
+$$\begin{array}{c}
+  \begin{array}{l}
+    [fq]_x = [qt]_x \\
+    [qt]_x = [ct]_x \circ \cdots \circ [ct]_x
+  \end{array} \\
+  \begin{array}{l}
+    [(C,\varepsilon)]_x = C(x) \\
+    [(C,\varepsilon)]_x = C(x) \\
+    [(P,qt)]_x = \exists y\,(P,x,y) \land [qt]_y \\
+    [(P,qt)]_x = \exists y\,(P,x,y) \land [qt]_y
+  \end{array}
+\end{array} \tag{2}$$
  
 $$\begin{array}{l} \left[\left(P^{-},qt\right]\right]\_{x} = \exists y\left(P(y,x)\land\left[qt\right]\_{y}\right) \\ \left[\left(P,\circ\left[vs\_{1},\cdots,vs\_{n}\right)\right]\right]\_{x} = \exists y\left(P(x,y)\land\left[\left[vs\_{1}\right]\_{y}\circ\cdots\circ\left[vs\_{n}\right]\_{y}\right)\right) \\ \left[\left(a,\varepsilon\right)\right]\_{x} = x = a \\ \left[\left(patt,\varepsilon\right)\right]\_{x} = x \text{ LKE } patt, \end{array} \end{array} \tag{2}$$
 
