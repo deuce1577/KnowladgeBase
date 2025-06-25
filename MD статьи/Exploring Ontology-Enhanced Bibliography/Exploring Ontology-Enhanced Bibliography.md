@@ -177,7 +177,14 @@ The query in Fig. [3\(](#page-7-0)c), has the following meaning:
 
 <span id="page-8-1"></span>The textual form of this query is:
 
-$$\alpha = \{Person\}[(autorConf, \mathfrak{w}\mathfrak{y})/\{ACMConf[(confYear, \{\text{\textquotedblleft}2016\text{\textquotedblright})\}], \quad \text{(1)}]$$
+$$
+\alpha = \{ \text{Person} \} \left[ 
+    (\text{authorConf},\, \mathfrak{w}\mathfrak{y})\, / \,
+    \left\{ 
+        \text{ACMConf} \left[ (\text{confYear},\, \{\text{``2016''}\}) \right] 
+    \right\} 
+\right] \tag{1}
+$$
 
 $$TPDLCon[(confYear, \{\text{\textquotedblleft}2016\text{\textquotedblright})\}].$$
 
