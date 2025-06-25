@@ -1,5 +1,3 @@
-![](_page_0_Picture_0.jpeg)
-
 # **DAFO: An Ontological Database System with Faceted Queries**
 
 Tadeusz Pankowski(B) and Jaroslaw B ak

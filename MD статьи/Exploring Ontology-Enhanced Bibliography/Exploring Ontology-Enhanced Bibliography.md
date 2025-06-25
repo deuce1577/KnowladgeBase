@@ -186,7 +186,9 @@ $$
 \right] \tag{1}
 $$
 
-$$TPDLCon[(confYear, \{\text{\textquotedblleft}2016\text{\textquotedblright})\}].$$
+$$
+\text{TPDLConf} \left[ (\text{confYear},\, \{ \text{``2016''} \}) \right]
+$$
 
 <span id="page-8-0"></span>The formal syntax of a faceted query α is [\[14](#page-12-3),[15\]](#page-12-4):
 
