@@ -126,7 +126,7 @@ $$
 
 Let <sup>Ω</sup>(*O<sup>T</sup>* ) be the set of all labels in *<sup>O</sup><sup>T</sup>* . Given *<sup>k</sup>*, for each source label <sup>ω</sup>*<sup>S</sup>* <sup>∈</sup> <sup>Ω</sup>(*e<sup>S</sup>* ), MILA generates the *<sup>k</sup>* most promising correspondence candidates by selecting a subset *<sup>C</sup>*ω*<sup>S</sup>* <sup>=</sup> {ω*<sup>T</sup>*<sup>1</sup> , ω*<sup>T</sup>*<sup>2</sup> , ..., ω*<sup>T</sup><sup>k</sup>* } ⊆ Ω(*O<sup>T</sup>* ) that maximizes the score function *<sup>f</sup><sup>w</sup>* with respect to <sup>ω</sup>*<sup>S</sup>* . To refine this selection, we introduce a threshold <sup>τ</sup> that filters out candidates whose score function values fall below it. Therefore, the similarity scores satisfy
 
-$$f\_{\mathbf{w}}(\omega\_{\mathbf{S}}, \omega\_{\mathbf{T}\_i}) \ge \tau \ge f\_{\mathbf{w}}(\omega\_{\mathbf{S}}, \omega\_{\mathbf{T}\_j}), \quad \forall \left(\omega\_{T\_i}, \omega\_{T\_j}\right) \in C\_{\alpha \mathbf{s}} \times \Omega(O\_T) \backslash C\_{\alpha \mathbf{s}}\dots$$
+$$f\_{\mathbf{w}}(\omega\_{\mathbf{S}}, \omega\_{\mathbf{T}\_i}) \ge \tau \ge f\_{\mathbf{w}}(\omega\_{\mathbf{S}}, \omega\_{\mathbf{T}\_j}), \quad \forall \left(\omega\_{T\_i}, \omega\_{T\_j}\right) \in C\_{\omega \mathbf{s}} \times \Omega(O\_T) \backslash C\_{\omega \mathbf{s}}\dots$$
 
 For example, as illustrated in Fig. [2,](#page-7-0) when considering the term <sup>ω</sup>*NCIT* <sup>=</sup> *clear cell sarcoma of soft tissue* with <sup>τ</sup> <sup>=</sup> <sup>0</sup>.75, the resulting subset *<sup>C</sup>*ω*NCIT* is the following
 
