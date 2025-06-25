@@ -120,7 +120,9 @@ $$f\_{\boldsymbol{\nu}}(\boldsymbol{\omega}\_{\boldsymbol{S}}, \boldsymbol{\omeg
 
 We used cosine similarity in this step of the RAG model since it guarantees the retrieval of contextually relevant candidates, even when their labels differ, which is essential to achieve high-quality correspondences [\[38\]](#page-22-16). Fig. [2](#page-7-0) shows the predicted correspondence candidates for the source entity ncit:C3745 (Clear Cell Sarcoma of Soft Tissue) using SBERT. In this figure, the similarity score *f<sup>w</sup>* is depicted in brown, representing the similarity between source labels (in green) and target labels (in gray). Specifically, for the terms <sup>ω</sup>*NCIT* <sup>=</sup> *clear cell sarcoma of soft tissue* and <sup>ω</sup>*DOID* <sup>=</sup> *clear cell sarcoma*, *<sup>f</sup><sup>w</sup>* is
 
-# *<sup>f</sup>w*(ω*NCIT* , ω*DOID*) <sup>=</sup> <sup>0</sup>.80521.
+$$
+f_w(\omega_{NCIT}, \omega_{DOID}) = 0.80521.
+$$
 
 Let <sup>Ω</sup>(*O<sup>T</sup>* ) be the set of all labels in *<sup>O</sup><sup>T</sup>* . Given *<sup>k</sup>*, for each source label <sup>ω</sup>*<sup>S</sup>* <sup>∈</sup> <sup>Ω</sup>(*e<sup>S</sup>* ), MILA generates the *<sup>k</sup>* most promising correspondence candidates by selecting a subset *<sup>C</sup>*ω*<sup>S</sup>* <sup>=</sup> {ω*<sup>T</sup>*<sup>1</sup> , ω*<sup>T</sup>*<sup>2</sup> , ..., ω*<sup>T</sup><sup>k</sup>* } ⊆ Ω(*O<sup>T</sup>* ) that maximizes the score function *<sup>f</sup><sup>w</sup>* with respect to <sup>ω</sup>*<sup>S</sup>* . To refine this selection, we introduce a threshold <sup>τ</sup> that filters out candidates whose score function values fall below it. Therefore, the similarity scores satisfy
 
