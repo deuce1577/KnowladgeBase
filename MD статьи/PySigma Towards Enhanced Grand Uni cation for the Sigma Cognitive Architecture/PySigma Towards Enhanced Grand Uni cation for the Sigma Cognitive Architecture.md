@@ -62,7 +62,7 @@ Variational Autoencoders are canonical deep generative models widely used for le
 
 From a probabilistic inference perspective, VAE is a class of methods for working with the Latent Variable Model, a class of models where a group of latent variables is interlinked to explain the behaviors of the observed variables. Figure 1a shows the simplest possible latent variable model as a Bayesian network that consists of only a latent variable z and an observed variable x. Figure 1b presents the factor graph representation of this model. The pθ(z) factor node encodes the prior distribution over z, and pθ(x | z) factor node encodes the conditional distribution that determines the underlying dynamics between z and x. Throughout the following sections, we will concentrate on this simple model for illustration. We will assume a known and fixed prior distribution and call the unknown conditional distribution pθ(x | z) the reconstruction model. We will also assume the reconstruction model comes from a very general model family P for which exact inference algorithms such as the Sum-Product algorithm cannot solve in polynomial time. However, despite the generality, the reconstruction models can be parameterized by a parameter θ, and the probability density function of the model is differentiable with respect to θ.
 
-![](_page_5_Figure_2.jpeg)
+![[Pasted image 20250625163414.png]]
 
 Fig. 1: Left (a): simple latent variable model as a directed Bayesian network. Right (b): the same model expressed as a factor graph.
 
