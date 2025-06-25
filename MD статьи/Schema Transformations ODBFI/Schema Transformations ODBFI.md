@@ -293,7 +293,12 @@ $$\begin{array}{c}
   \end{array}
 \end{array} \tag{2}$$
  
-$$\begin{array}{l} \left[\left(P^{-},qt\right]\right]\_{x} = \exists y\left(P(y,x)\land\left[qt\right]\_{y}\right) \\ \left[\left(P,\circ\left[vs\_{1},\cdots,vs\_{n}\right)\right]\right]\_{x} = \exists y\left(P(x,y)\land\left[\left[vs\_{1}\right]\_{y}\circ\cdots\circ\left[vs\_{n}\right]\_{y}\right)\right) \\ \left[\left(a,\varepsilon\right)\right]\_{x} = x = a \\ \left[\left(patt,\varepsilon\right)\right]\_{x} = x \text{ LKE } patt, \end{array} \end{array} \tag{2}$$
+$$\begin{array}{l}
+  [(P^{-},qt)]_x = \exists y\,\big(P(y,x) \land [qt]_y\big) \\
+  [(P,\,\circ[vs_1,\ldots,vs_n])]_x = \exists y\,\big(P(x,y) \land ([vs_1]_y \circ \cdots \circ [vs_n]_y)\big) \\
+  [(a,\varepsilon)]_x = (x = a) \\
+  [(patt,\varepsilon)]_x = x \text{ LKE } patt
+\end{array} \tag{2}$$
 
 *where the variable* y *under existential quantifier is "fresh:, i.e., any variable is at most once quantified.*
 
